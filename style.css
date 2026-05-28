@@ -112,3 +112,21 @@ section {
     background: transparent;
     border: 2px solid white;
 }
+.impact {
+    background: #2b2b2b;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.impact-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.impact h3 {
+    font-size: 3rem;
+    color: #c9a7ff;
+}
