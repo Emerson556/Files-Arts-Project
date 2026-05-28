@@ -232,3 +232,34 @@ footer {
     align-items: center;
     box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
+.page-hero {
+    text-align: center;
+    background: #f7eadc;
+    padding: 90px 30px;
+}
+
+.page-hero h2 {
+    font-size: 3rem;
+    color: #8b1538;
+}
+
+.page-hero p {
+    max-width: 700px;
+    margin: 15px auto 0;
+    font-size: 1.1rem;
+}
+
+.about-page {
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-page p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.values {
+    background: white;
+}
