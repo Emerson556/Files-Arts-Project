@@ -203,5 +203,12 @@ footer {
         padding: 50px 25px;
     }
 }
+.events-preview {
+    background: white;
+}
 
+.events-button {
+    text-align: center;
+    margin-top: 40px;
+}
 
