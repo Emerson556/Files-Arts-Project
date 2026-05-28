@@ -350,3 +350,52 @@ footer {
         text-align: center;
     }
 }
+.timeline {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.timeline-item {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    align-items: flex-start;
+}
+
+.timeline-year {
+    min-width: 120px;
+    background: #8b1538;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.timeline-content {
+    flex: 1;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.timeline-content h3 {
+    color: #8b1538;
+    margin-bottom: 10px;
+}
+
+.timeline-content .btn {
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .timeline-item {
+        flex-direction: column;
+    }
+
+    .timeline-year {
+        width: 100%;
+    }
+}
