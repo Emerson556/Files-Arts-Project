@@ -308,3 +308,45 @@ footer {
         text-align: center;
     }
 }
+.events-page {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.event-card {
+    display: flex;
+    gap: 30px;
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 18px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
+
+.event-date {
+    min-width: 120px;
+    text-align: center;
+    background: #8b1538;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.event-date h1 {
+    font-size: 3rem;
+}
+
+.event-info h2 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .event-card {
+        flex-direction: column;
+    }
+
+    .event-info h2 {
+        text-align: center;
+    }
+}
