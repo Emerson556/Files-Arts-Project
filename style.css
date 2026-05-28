@@ -211,4 +211,24 @@ footer {
     text-align: center;
     margin-top: 40px;
 }
+.sponsors {
+    background: #fffaf3;
+}
 
+.sponsor-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.sponsor-box {
+    width: 180px;
+    height: 100px;
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
