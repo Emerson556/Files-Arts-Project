@@ -417,4 +417,30 @@ footer {
     }
 
 }
+.donate-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
 
+.donation-method {
+    width: 300px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
+
+.donation-method img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.donation-method h3 {
+    color: #8b1538;
+    margin-bottom: 10px;
+}
