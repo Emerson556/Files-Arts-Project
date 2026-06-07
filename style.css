@@ -443,3 +443,24 @@ footer {
     color: #8b1538;
     margin-bottom: 10px;
 }
+.mail-donation {
+text-align: center;
+}
+
+.mail-card {
+max-width: 700px;
+margin: auto;
+background: white;
+padding: 40px;
+border-radius: 20px;
+box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
+
+.mail-card h3 {
+color: #8b1538;
+margin-bottom: 15px;
+}
+
+.mail-card p {
+margin-bottom: 25px;
+}
