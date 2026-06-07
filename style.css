@@ -527,3 +527,17 @@ font-size: 1rem;
 min-height: 150px;
 resize: vertical;
 }
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
