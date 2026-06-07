@@ -555,3 +555,25 @@ resize: vertical;
 .footer-social img:hover {
     transform: scale(1.1);
 }
+.footer-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 55px;
+    height: 55px;
+
+    background: #8b1538;
+    border-radius: 50%;
+
+    margin: 0 10px;
+
+    text-decoration: none;
+}
+
+.footer-social img {
+    width: 25px;
+    height: 25px;
+
+    filter: brightness(0) invert(1);
+}
