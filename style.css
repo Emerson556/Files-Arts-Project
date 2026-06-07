@@ -485,3 +485,45 @@ margin-bottom: 25px;
 .tax-info p:last-child {
     margin-top: 10px;
 }
+.contact-container {
+display: flex;
+gap: 30px;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.contact-card {
+width: 500px;
+background: white;
+padding: 35px;
+border-radius: 20px;
+box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
+
+.contact-card h3 {
+color: #8b1538;
+margin-bottom: 10px;
+}
+
+.contact-card p {
+margin-bottom: 25px;
+}
+
+.contact-card form {
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.contact-card input,
+.contact-card textarea {
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 10px;
+font-size: 1rem;
+}
+
+.contact-card textarea {
+min-height: 150px;
+resize: vertical;
+}
