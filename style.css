@@ -587,3 +587,29 @@ resize: vertical;
 .social-links img:hover {
     transform: scale(1.1);
 }
+.archive-detail {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.archive-detail p {
+    max-width: 750px;
+    margin: 0 auto 30px;
+}
+
+.archive-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.archive-gallery img {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
