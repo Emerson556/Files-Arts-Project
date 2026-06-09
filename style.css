@@ -618,3 +618,10 @@ resize: vertical;
     max-height: 80px;
     object-fit: contain;
 }
+.press-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
