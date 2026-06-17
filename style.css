@@ -607,11 +607,11 @@ resize: vertical;
 }
 
 .archive-gallery img {
-    width: 300px;
-    height: 220px;
-    object-fit: cover;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
     border-radius: 15px;
-    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
 }
 .sponsor-box img {
     width: 140px;
