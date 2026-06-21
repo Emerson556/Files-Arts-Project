@@ -636,6 +636,7 @@ resize: vertical;
     max-width: 800px;
     height: 500px;
     object-fit: contain;
+    background:#fffaf3;
     border-radius: 15px;
     box-shadow: 0 5px 18px rgba(0,0,0,0.1);
 }
