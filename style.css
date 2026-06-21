@@ -611,7 +611,7 @@ resize: vertical;
     height: 220px;
     object-fit: contain;
     border-radius: 15px;
-    background: white;
+    background:#fffaf3;
 }
 .sponsor-box img {
     width: 140px;
