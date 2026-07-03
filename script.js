@@ -1,7 +1,7 @@
 console.log("Website Loaded");
 const images = [
-"1913083_orig.jpg",
-"images/2015-2.jpg",
+"2015-1.jpg",
+"2015-2.jpg",
 "images/2015-3.jpg",
 "images/2015-4.jpg",
 "images/2015-5.jpg"
