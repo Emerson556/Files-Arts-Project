@@ -611,7 +611,9 @@ resize: vertical;
     height: 220px;
     object-fit: contain;
     border-radius: 15px;
-    background:#fffaf3;
+    background: #f7eadc;
+    padding: 10px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
 }
 .sponsor-box img {
     width: 140px;
@@ -624,24 +626,4 @@ resize: vertical;
     height: auto;
     border-radius: 15px;
     box-shadow: 0 5px 18px rgba(0,0,0,0.08);
-}
-.lightbox-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin-bottom: 35px;
-}
-
-.lightbox-gallery img {
-    width: 250px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 15px;
-    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease;
-}
-
-.lightbox-gallery img:hover {
-    transform: scale(1.04);
 }
