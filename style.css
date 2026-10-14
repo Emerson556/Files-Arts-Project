@@ -631,6 +631,9 @@ resize: vertical;
     max-width: 850px;
     margin: 50px auto;
     text-align: center;
+    border-radius: 18px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+}
 }
 
 .archive-video video {
