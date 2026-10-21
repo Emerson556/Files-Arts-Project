@@ -640,3 +640,61 @@ resize: vertical;
     background: #2b2b2b;
     box-shadow: 0 5px 18px rgba(0,0,0,0.12);
 }
+/* Website Logo */
+
+.site-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #8b1538;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.site-logo img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+
+/* Navigation Improvements */
+
+nav {
+    gap: 25px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul a {
+    transition: color 0.3s ease;
+}
+
+nav ul a:hover {
+    color: #8b1538;
+}
+
+/* Mobile Navigation */
+
+@media (max-width: 768px) {
+
+    .site-logo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .site-logo img {
+        width: 75px;
+        height: 75px;
+    }
+
+    nav ul {
+        gap: 12px 18px;
+    }
+}
