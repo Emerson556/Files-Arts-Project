@@ -232,21 +232,148 @@ footer {
     align-items: center;
     box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
-.page-hero {
-    text-align: center;
-    background: #f7eadc;
-    padding: 90px 30px;
+/* HOMEPAGE HERO SECTION */
+
+.hero {
+    min-height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 100px 8%;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.80),
+            rgba(0, 0, 0, 0.35)
+        ),
+        url("images/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: left;
 }
 
-.page-hero h2 {
-    font-size: 3rem;
+.hero-content {
+    max-width: 750px;
+}
+
+/* Small Heading */
+
+.hero-label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #f0c36a;
+    margin-bottom: 20px;
+}
+
+/* Main Heading */
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.15;
+    color: white;
+    margin-bottom: 25px;
+}
+
+/* Description */
+
+.hero-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 600px;
+    margin-bottom: 35px;
+}
+
+/* Buttons */
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 15px 30px;
+
+    background: #8b1538;
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 30px;
+
+    transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+    background: #621027;
+    transform: translateY(-3px);
+}
+
+/* Secondary Button */
+
+.hero-btn-outline {
+    display: inline-block;
+    padding: 15px 30px;
+
+    background: transparent;
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 30px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: 0.3s ease;
+}
+
+.hero-btn-outline:hover {
+    background: white;
     color: #8b1538;
 }
 
-.page-hero p {
-    max-width: 700px;
-    margin: 15px auto 0;
-    font-size: 1.1rem;
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: 65vh;
+        padding: 80px 25px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-btn,
+    .hero-btn-outline {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+    }
 }
 
 .about-page {
