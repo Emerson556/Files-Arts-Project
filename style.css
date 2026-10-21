@@ -48,33 +48,6 @@ nav a:hover {
     color: #8b1538;
 }
 
-.hero {
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 90px 20px;
-    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-                url("images/hero.jpg");
-    background-size: cover;
-    background-position: center;
-    color: white;
-}
-
-.hero-content {
-    max-width: 850px;
-}
-
-.hero h2 {
-    font-size: 3.6rem;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 1.25rem;
-    margin-bottom: 30px;
-}
 
 .btn {
     display: inline-block;
@@ -824,4 +797,23 @@ nav ul a:hover {
     nav ul {
         gap: 12px 18px;
     }
+}
+/* BANNERS FOR OTHER PAGES */
+
+.page-hero {
+    text-align: center;
+    background: #f7eadc;
+    padding: 90px 30px;
+}
+
+.page-hero h2 {
+    font-size: 3rem;
+    color: #8b1538;
+    margin-bottom: 20px;
+}
+
+.page-hero p {
+    max-width: 700px;
+    margin: 15px auto 0;
+    font-size: 1.1rem;
 }
